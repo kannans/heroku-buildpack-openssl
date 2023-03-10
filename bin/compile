@@ -28,7 +28,7 @@ ENV_DIR=$3
 echo "BIN_DIR=${BIN_DIR}, ROOT_DIR=${ROOT_DIR}, BUILD_DIR=${BUILD_DIR}, CACHE_DIR=${CACHE_DIR}, pwd=$(pwd)" | indent
 
 # Changing this will cause any previous install to be replaced
-OPENSSL_VERSION="1.1.1m"
+OPENSSL_VERSION="1.1.1t"
 
 CACHED_TAR=${CACHE_DIR}/openssl-${OPENSSL_VERSION}-heroku.tar.bz2
 
