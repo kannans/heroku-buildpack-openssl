@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # bin/release <build-dir>
 
+ln -s /lib/x86_64-linux-gnu/ibreadline.so.8 /lib/x86_64-linux-gnu/ibreadline.so.7
 echo -n ""
